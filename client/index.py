@@ -2,8 +2,27 @@ from tkinter import ttk
 from tkinter import scrolledtext 
 import tkinter as tk 
 from tkinter import *
+import socket
+import sys
 
 class base:
+    #CONEXION CON SERVIDOR LADO CLIENTE
+    try:
+        conexion= socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        print("Conexion exitosamente creada")
+    except socket.error as err:
+        print("La creacion de la conexion fue un fracaso por: %conexion" %(err))
+    port= 80
+
+    try:
+        host_ip= socket.gethostbyname('www.google.com')#conectandome con el servidor
+        #para enviar informacion se necesita la libreria sendall
+    except socket.gaierror:
+        print("Hubo un error en la conexion")
+        sys.exit()
+    conexion.connect((host_ip,port))
+    print("Servidor conectado exitosamente" +str(port))
+    #FIN CONEXION SERVIDOR LADO CLIENTE
     #esto es un constructor
     def __init__(self, window):
         self.wind = window #guarda la ventana que tiene como parametro  
@@ -55,7 +74,7 @@ class base:
 
     def onExit(self):
 
-        self.quit()
+        quit()
 
 if __name__ == '__main__':
         window = Tk()
