@@ -5,6 +5,7 @@
 > - Cinthya Andrea Palomo Galvez 201700670
 > - Karla Julissa Ajtún Velásquez 201700565
 > - Javier Alejandro Monterroso Lopez 201700831
+> - Byron Antonio Orellana Alburez 201700733
 
 # Manual de Usuario
 ## Editor de texto
