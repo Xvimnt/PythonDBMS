@@ -8,6 +8,7 @@
 > - Byron Antonio Orellana Alburez 201700733
 
 # Manual de Usuario
+![b9c88682-9c9c-4b84-9ba3-38f841784a9a](https://user-images.githubusercontent.com/14981793/102703787-fae75b00-4238-11eb-9b00-22158d07075b.jpg)
 ## Editor de texto
 La interfaz gráfica se compone de un editor de texto con resaltado de sintaxis sql en el cual podemos escribir consultas 
 ## Arbol de Directorios
