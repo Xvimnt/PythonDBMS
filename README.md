@@ -9,7 +9,7 @@
 
 # Manual de Usuario
 ## Pantalla Inicial
-![b9c88682-9c9c-4b84-9ba3-38f841784a9a](https://user-images.githubusercontent.com/14981793/102703787-fae75b00-4238-11eb-9b00-22158d07075b.jpg)
+![c2492611-a0a3-4273-b2df-5aa515fc1d00](https://user-images.githubusercontent.com/14981793/102703838-cfb13b80-4239-11eb-9598-1197413e8c70.jpg)
 ## Editor de texto
 La interfaz gráfica se compone de un editor de texto con resaltado de sintaxis sql en el cual podemos escribir consultas y nos genera la salida correspondiente en la parte inferior de la aplicación
 ## Arbol de Directorios
