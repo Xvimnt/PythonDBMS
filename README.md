@@ -1,6 +1,6 @@
 # Tytus DBMS Grupo # 08
-## Cliente Desktop Linux
-### Universidad de San Carlos de Guatemala, Diciembre 2020
+### Cliente Desktop Linux
+#### Universidad de San Carlos de Guatemala, Diciembre 2020
 > Integrantes
 > - Cinthya Andrea Palomo Galvez 201700670
 > - Karla Julissa Ajtún Velásquez 201700565
