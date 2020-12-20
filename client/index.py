@@ -87,6 +87,9 @@ class Aplicacion:
  
         
     def MensajeAcercaDe(self):                
-                self.messagebox.showinfo(message="ESTE PROGRAMA ES REALIZADO \n POR EL GRUPO 8:\n Cinthya Andrea Palomo Galvez 201700670 \n Karla Julissa Ajtún Velásquez 201700565 \n Version 1.0.0", title="TytusDB")
+                self.messagebox.showinfo(message="ESTE PROGRAMA ES REALIZADO \n POR EL GRUPO 8:\n "
+                +"Cinthya Andrea Palomo Galvez 201700670 \n Karla Julissa Ajtún Velásquez 201700565 \n"
+                +"Javier Alejandro Monterroso Lopez 201700831 \n Karla Julissa Ajtún Velásquez 201700565 \n"
+                +" Version 1.0.0", title="TytusDB")
 
 aplicacion1=Aplicacion()
