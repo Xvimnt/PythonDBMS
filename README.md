@@ -44,7 +44,8 @@ Aca se puede observar la conexion, con la funcion **gethostbyname** se especific
     conexion.connect((host_ip,port))
     print("Servidor conectado exitosamente" +str(port))
 ```
-## Tkinter
+## Librerias
+### Tkinter
 Es un binding de la biblioteca gráfica Tcl/Tk para el lenguaje de programación Python. Se considera un estándar para la interfaz gráfica de usuario (GUI) para Python, para lo que se instaló:
 **versión utilizada para Python 3.8.5**
 ```python
@@ -54,7 +55,7 @@ y se importó las librerías:
 ```python
 import tkinter
 ```
-
+### PIL
 Para la instalación de las imágenes se utilizó la librería PIL
 
 ```python
