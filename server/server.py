@@ -9,8 +9,8 @@ import socketserver
 
 class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
-            self.send_response(400)
-            self.wfile.write(bytes("",'utf-8'))
+            self.send_response(200)
+            self.wfile.write(bytes("Ok",'utf-8'))
 
 TytusServer = HTTPServer(('localhost', 4040), Handler)
 print("Corriendo server en puerto 4040")
