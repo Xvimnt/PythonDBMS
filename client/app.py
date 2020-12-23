@@ -138,6 +138,7 @@ class Mi_App():
         conexion= http.client.HTTPConnection('localhost',puerto,timeout=10)
         conexion.request("GET","/")
         respuesta= conexion.getresponse()
+        messagebox.showinfo(message="Conexión estado: "+str(respuesta.reason), title="Conexion")
         print("Status: {} and razon: {}".format(respuesta.status,respuesta.reason))
         conexion.close()
         """
