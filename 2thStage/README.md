@@ -7,5 +7,5 @@
 > - Byron Antonio Orellana Alburez 201700733
 
 # Segunda Fase 
-## CLiente y Servidor: Grupo no. 1
+## Cliente y Servidor: Grupo no. 1
 ## Parser: Grupo no. 8
