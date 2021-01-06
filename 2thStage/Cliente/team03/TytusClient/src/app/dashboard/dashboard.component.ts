@@ -96,7 +96,7 @@ export class DashboardComponent implements OnInit {
 
   consulta(event:Event)
   {
-    alert("Ejecutnado consulta.....");
+    alert("Ejecutando consulta.....");
   }
 
 }
